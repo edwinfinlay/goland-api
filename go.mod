@@ -1,4 +1,4 @@
-module my-first-api
+module github.com/edwinfinlay/goland-api
 
 go 1.24
 
