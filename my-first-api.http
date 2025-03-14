@@ -1,0 +1,15 @@
+### GET request to example server
+GET http://localhost:8181/todo
+
+### POST request to add a TODO
+POST localhost:8181/todo
+
+{
+"item": "get maeve"
+}
+
+### DELETE request to delete a TODO
+DELETE localhost:8181/todo/1
+
+### GET request to search for a TODO
+GET localhost:8181/search?q=Shop
